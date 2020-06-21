@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="16dp"
+    tools:context="com.lagtutor.android.lagtutorapp.MainActivity">
+
+
+    <TextView
+        android:id="@+id/lagtutor_app_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="@dimen/padding_regular"
+        android:text="@string/lagtutor_app_heading"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:textColor="@android:color/white" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lagtutor_app_heading"
+        android:id="@+id/scrollView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:id="@+id/admission_req_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/admission_requirements" />
+
+            <Button
+                android:id="@+id/open_admission_req_page_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:onClick="openAdmissionReqPage"
+                android:text="@string/button_admission_req_uri"
+                tools:layout_editor_absoluteX="24dp"
+                tools:layout_editor_absoluteY="80dp" />
+
+            <TextView
+                android:id="@+id/utme_target_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginEnd="5dp"
+                android:text="@string/utme_target_score" />
+
+
+            <Button
+                android:id="@+id/open_utme_target_page_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:onClick="openUtmeTargetPage"
+                android:text="@string/button_utme_target_uri"
+                tools:layout_editor_absoluteX="63dp" />
+
+            <TextView
+                android:id="@+id/cutoff_share_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginEnd="5dp"
+                android:text="@string/unilag_cut_off_marks" />
+
+
+            <Button
+                android:id="@+id/cutoff_share_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:onClick="cutoffShareButton"
+                android:text="@string/button_cutoff_share"
+                tools:layout_editor_absoluteX="85dp"
+                tools:layout_editor_absoluteY="383dp" />
+
+            <TextView
+                android:id="@+id/contactTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginEnd="5dp"
+                android:text="@string/contact_us" />
+
+
+            <Button
+                android:id="@+id/contact_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:onClick="launchContactActivity"
+
+                android:text="@string/button_contact" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">LagTutor App</string>
+
+    <string name="edittext_admission_req_uri">http://lagtutor.com/unilag-undergraduate-admission-requirements.php</string>
+    <string name="button_admission_req_uri">Open Web Page</string>
+
+    <string name="edittext_utme_target_uri">http://lagtutor.com/unilag-utme-target.php</string>
+    <string name="button_utme_target_uri">Open Web Page</string>
+
+    <string name="edittext_home_tutoring_uri">http://lagtutor.com/home_tutorials.php</string>
+    <string name="button_home_tutoring_uri">Open Web Page</string>
+
+    <string name="edittext_cutoff_share">http://lagtutor.com/unilag_cutoffs.php</string>
+    <string name="button_cutoff_share">Share This Text</string>
+
+    <string name="edittext_contact">Reach us via WhatsApp on +2348092327228</string>
+    <string name="button_contact">Contact Us</string>
+    <string name="share_cutoffs">Share this text with:</string>
+    <string name="contact_activity">Contact LagTutor</string>
+    <string name="contact_details">
+        You can reach us via WhatsApp on +2348092327228 \n\n
+        Email: lagtutorial@gmail.com    \n\n
+        Website: www.LagTutor.com  \n\n
+
+        \n\n
+
+        We offer home tutoring for candidates preparing for UTME, Unilag post UTME, Foundation Programme Entrance Exams, WASSCE and NECO. See: www.LagTutor.com/home_tutorials.php
+
+    </string>
+    <string name="lagtutor_app_heading">Useful online resources</string>
+    <string name="admission_requirements">
+        Unilag Admission Requirements for all courses - www.lagtutor.com/unilag-undergraduate-admission-requirements.php
+    </string>
+    <string name="utme_target_score">Know the UTME target score for your course.</string>
+    <string name="unilag_cut_off_marks">Cut off marks from 2011 &#8211; 2018 www.lagtutor.com/unilag_cutoffs.php</string>
+    <string name="contact_us">Reach us via WhatsApp on +2348092327228</string>
+</resources>
